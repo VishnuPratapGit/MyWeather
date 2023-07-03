@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Nunito&family=Poppins:wght@700&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: ghostwhite;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181717;
+    height: 100vh;
+}
+.container{
+    border:solid 5px grey;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.534);
+    background: linear-gradient(140deg, #000000, rgb(0, 0, 0));
+    width: 350px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.searchbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 25, 25);
+    border-radius: 50px;
+    align-items: center;
+}
+.searchbox input{
+    border: none;
+    outline: none;
+    background:none;
+    font-family: Nunito;
+    font-weight: 600;
+    width: 70%;
+    padding: 12px 20px;
+    border-radius: 25px 0px 0px 25px;
+    font-size: 17px;
+}
+.searchbox button{
+    border: none;
+    background: none;
+    width: 45px;
+    height: 45px;
+    font-size: 19px;
+    border-radius: 50%;
+}
+
+.image{
+    text-align: center;
+}
+.image img{
+    width: 70%;
+}
+
+.data{
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+}
+.data .temprature{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Lobster Two', cursive;
+    position: relative;
+}
+.data sup{
+    font-size: 22px;
+    font-family: Nunito;
+    position: absolute;
+    font-weight: 800;
+
+}
+.data .description{
+    font-size: 23px;
+    font-family:nunito;
+    font-weight: 600;
+    color:rgb(100, 100, 100);
+    text-transform: capitalize;
+}
+
+
+.location{
+    margin-top: 25px;
+    font-size: 35px;
+    text-align: center;
+    font-family:nunito;
+    /* font-weight: 600; */
+    color:darkgrey;
+    text-transform: capitalize;
+}
+#location{
+    color: rgb(188, 188, 188);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.weather-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.details-box{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    line-height: 20px;
+}
+.details-box i{
+    padding-right: 10px;
+    font-size: 30px;
+}
+.text p{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+    font-family: Nunito;
+}
+.text span{
+    font-size: 25px;
+    font-family: Nunito;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        align-items: flex-start;
+        background-color: black;
+    }
+
+    .container{
+        width: 100%;
+        border:0;
+    }
+
+    .searchbox{
+        width: 100%;
+        border-radius: 8px;
+    }
+}
