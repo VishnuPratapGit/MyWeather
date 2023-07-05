@@ -19,7 +19,7 @@ const chekWeather = async (cityName) => {
         temprature.innerHTML = Math.round(data.main.temp - 273.15);
         description.innerHTML = data.weather[0].description;
         humidity.innerHTML = `${data.main.humidity}%`;
-        windspeed.innerHTML = `${Math.round(data.wind.speed * 3.6)} km/s`;
+        windspeed.innerHTML = `${Math.round(data.wind.speed * 3.6)} km/h`;
 
         switch (data.weather[0].main) {
             case 'Clouds':
