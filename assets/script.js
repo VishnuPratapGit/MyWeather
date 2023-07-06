@@ -23,43 +23,43 @@ const chekWeather = async (cityName) => {
 
         switch (data.weather[0].main) {
             case 'Clouds':
-                weather_img.src = "assets/images/cloudy.svg";
+                weather_img.src = "assets/Images/cloudy.svg";
                 break;
 
             case 'Rain':
-                weather_img.src = "assets/images/rainy-6.svg";
+                weather_img.src = "assets/Images/rainy-6.svg";
                 break;
 
             case 'Clear':
-                weather_img.src = "assets/images/day.svg";
+                weather_img.src = "assets/Images/day.svg";
                 break;
                 
             case 'Snow':
-                weather_img.src = "assets/images/snowy-6.svg";
+                weather_img.src = "assets/Images/snowy-6.svg";
                 break;
 
             case 'Thunderstorm':
-                weather_img.src = "assets/images/thunder.svg";
+                weather_img.src = "assets/Images/thunder.svg";
                 break;
 
             case 'Drizzle': 
-                weather_img.src = "assets/images/rainy-7.svg";
+                weather_img.src = "assets/Images/rainy-7.svg";
                 break;
 
             case 'Mist':
-                weather_img.src = "assets/images/mist.svg";
+                weather_img.src = "assets/Images/mist.svg";
                 break;
 
             case 'Haze':
-                weather_img.src = "assets/images/haze.svg";
+                weather_img.src = "assets/Images/haze.svg";
                 break;
 
             case 'Smoke':
-                weather_img.src = "assets/images/smoke.svg";
+                weather_img.src = "assets/Images/smoke.svg";
                 break;
 
             case 'Fog':
-                weather_img.src = "assets/images/fog.svg";
+                weather_img.src = "assets/Images/fog.svg";
                 break;
 
             default:
