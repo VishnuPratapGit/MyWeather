@@ -8,7 +8,7 @@ const humidity = document.querySelector('#humidity');
 const windspeed = document.querySelector('#windspeed');
 
 const chekWeather = async (cityName) => {
-    const api_key = "12b021e4cfbde1f8d63f8c04cf3107c8";
+    const api_key = " ";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${api_key}`;
     try {
         const weather_data = await fetch(`${url}`);
